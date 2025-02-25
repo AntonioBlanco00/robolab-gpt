@@ -1,0 +1,18 @@
+# Endpoints for implements interfaces
+GPT.Endpoints=tcp -p 23225
+
+
+# Proxies for required interfaces
+# SpeechProxy = speech:tcp -h localhost -p 15191
+
+
+
+
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+Ice.MessageSizeMax=20004800
+
+
+

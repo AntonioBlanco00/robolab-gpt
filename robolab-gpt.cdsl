@@ -1,0 +1,13 @@
+import "GPT.idsl";
+import "Speech.idsl";
+
+Component robolab_gpt
+{
+    Communications
+    {
+        implements GPT;
+        requires Speech;
+    };
+    language python;
+};
+

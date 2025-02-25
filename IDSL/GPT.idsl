@@ -1,0 +1,9 @@
+module RoboCompGPT
+{
+  interface GPT
+  {
+    void setGameInfo(string asisstantName, string userInfo);
+    void startChat();
+    void continueChat(string message);
+  };
+};
